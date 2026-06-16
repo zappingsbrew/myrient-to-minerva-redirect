@@ -5,7 +5,7 @@
 // @description  Redirect myrient.erista.me/files/ URLs to minerva-archive.org/browse/, preserving full path and query
 // @author       Zappingsbrew & ChatGPT
 // @match        https://myrient.erista.me/files/*
-// @icon https://raw.githubusercontent.com/zappingsbrew/myrient-to-minerva-redirect/main/favicon.ico
+// @icon         https://raw.githubusercontent.com/zappingsbrew/myrient-to-minerva-redirect/main/favicon.ico
 // @updateURL    https://github.com/zappingsbrew/myrient-to-minerva-redirect/releases/latest/download/myrient-to-minerva-redirect.user.js
 // @downloadURL  https://github.com/zappingsbrew/myrient-to-minerva-redirect/releases/latest/download/myrient-to-minerva-redirect.user.js
 // @grant        none
