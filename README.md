@@ -6,15 +6,15 @@ A simple Tampermonkey userscript that automatically redirects `myrient.erista.me
 
 ## ⚠️ Note
 
-This script is purely cosmetic in behavior (URL redirect only) and does not modify any page content. It simply forwards navigation to a mirror site.
+This script is purely a URL redirect utility. It does not modify page content, inject elements, or collect any data. It only changes navigation from Myrient to Minerva Archive.
 
 ---
 
 ## ✨ Features
 
 - Redirects all `myrient.erista.me/files/*` pages to `minerva-archive.org/browse/*`
-- Preserves full directory structure and file paths
-- Works across all No-Intro, Redump, TOSEC, and other archives
+- Preserves full directory structure, filenames, and query strings
+- Works across all archive categories (No-Intro, Redump, TOSEC, etc.)
 - Runs instantly on page load (no flicker)
 - Lightweight and dependency-free
 
@@ -34,7 +34,7 @@ and rewrites it into:
 https://minerva-archive.org/browse/
 ```
 
-Example transformation:
+Example:
 
 ```text
 /files/No-Intro/Nintendo - Game Boy/
@@ -45,35 +45,44 @@ Example transformation:
 
 ## ⚙️ Installation
 
-1. Install **Tampermonkey** in your browser:
-   - https://www.tampermonkey.net/
+1. Install **Tampermonkey**:
+   https://www.tampermonkey.net/
 
-2. Open the userscript file:
-   `myrient-to-minerva-redirect.user.js`
+2. Install via one of the official pages:
+   - https://greasyfork.org/en/scripts/582968-myrient-to-minerva-redirect
+   - https://openuserjs.org/scripts/Zappingsbrew/Myrient_to_Minerva_Redirect
 
-3. Click **Install** in Tampermonkey.
-
-4. Visit any Myrient page under `/files/` — it will automatically redirect.
+3. Or manually:
+   - Copy the script from the repository
+   - Paste into a new Tampermonkey script
+   - Save and enable
 
 ---
 
 ## 🔗 Links
 
-- [GitHub](https://github.com/zappingsbrew/myrient-to-minerva-redirect) – Repository and source code  
-- (Optional) Greasy Fork – *Add later if published*  
-- (Optional) OpenUserJS – *Add later if published*
+- GitHub: https://github.com/zappingsbrew/myrient-to-minerva-redirect
+- Greasy Fork: https://greasyfork.org/en/scripts/582968-myrient-to-minerva-redirect
+- OpenUserJS: https://openuserjs.org/scripts/Zappingsbrew/Myrient_to_Minerva_Redirect
+
+---
+
+## 🎨 Assets
+
+The favicon used in this userscript is sourced from Minerva Archive and is hosted in this repository for userscript identification purposes (e.g. Tampermonkey icon display). It is used only for cosmetic identification and does not affect functionality.
+
+Favicon source:
+https://minerva-archive.org/assets/favicon.svg
 
 ---
 
 ## 🤖 Transparency & Credits
 
-This README and userscript structure follow the same format used in other Zappingsbrew Tampermonkey projects.
+- **Userscript logic:** ChatGPT (GPT-5)
+- **Publishing & maintenance:** Zappingsbrew
+- **Documentation structure:** ChatGPT (GPT-5)
 
-- **Userscript logic:** ChatGPT (GPT-5)  
-- **Project publishing & ownership:** Zappingsbrew  
-- **Documentation formatting:** ChatGPT (GPT-5)
-
-This script is purely a URL redirect utility and does not collect any data or interact with page content.
+This script is purely a redirect utility and does not collect data, inject content, or modify page behavior beyond URL navigation.
 
 ---
 
@@ -81,4 +90,4 @@ This script is purely a URL redirect utility and does not collect any data or in
 
 This project is licensed under the [MIT License](https://github.com/zappingsbrew/myrient-to-minerva-redirect/blob/main/LICENSE).
 
-© 2026 **Zappingsbrew**
+© 2026 Zappingsbrew
